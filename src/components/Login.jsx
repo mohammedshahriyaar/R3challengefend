@@ -17,7 +17,7 @@ function Login({ onLogin }) {
         console.log("userFound",user)
         // setPage("home");
         navigate("/home");
-      // onLogin(user);
+      onLogin(user);
 
     } else {
       alert("Invalid credentials");
